@@ -3,6 +3,7 @@
 * Configure php version 7.x by .env file
 * Mailhog for mail test
 * Cron is enabled
+* Xdebug is enabled
 * Download `bitrixsetup` to install bitrix
 
 # Installation
