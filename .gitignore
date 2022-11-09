@@ -1,0 +1,13 @@
+.idea
+.env
+.bash_history
+public/*
+logs
+data
+tmp
+vendor
+.composer
+local
+*.yml
+images/*
+.php_history
