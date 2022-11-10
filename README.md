@@ -14,7 +14,7 @@
 * Clone the repository to have docker separate
 
 ``` shell
- git clone https://github.com/SeRGei93/slam-docker.git bxdocker
+ git clone https://github.com/SeRGei93/bitrix-docker.git bxdocker
 ``` 
 
 * Go to repository `cd ./bxdocker`
