@@ -80,6 +80,14 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD_BITRIX}
 
+  memcached:
+    image: memcached:1.6.12-alpine
+    ports:
+      - '${INTERFACE:-127.0.0.1}:11211:11211'
+    networks:
+      - app-network
+    restart: always
+
 networks:
   app-network:
     driver: bridge

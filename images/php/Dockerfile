@@ -1,7 +1,7 @@
 ARG PHP_VERSION=7.4
 FROM php:${PHP_VERSION}-fpm
 
-LABEL maintainer="sergmotol@gmail.com"
+LABEL maintainer="slam"
 
 WORKDIR /var/www
 
