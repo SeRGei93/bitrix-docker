@@ -9,5 +9,4 @@ vendor
 .composer
 local
 *.yml
-images/*
 .php_history

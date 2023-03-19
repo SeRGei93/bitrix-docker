@@ -5,7 +5,7 @@ services:
     container_name: ${COMPOSE_PROJECT_NAME}_php
     command: [ "supervisord", "-n" ]
     build:
-      context: images/php
+      context: images/${PHP_DIR}
       args:
         PHP_VERSION: ${PHP_VERSION}
         SET_UP_SSH_SERVER: "${SET_UP_SSH_SERVER}"
