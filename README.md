@@ -60,3 +60,8 @@ docker-compose up --build -d
 #### Step 6
 
 * Install bitrix in public directory as you wish
+
+
+#### Step 7
+
+* If you want to choose a different version of php, so before "Step 5" you need to open  ".env.template" file and in the #php-container block you will need to replace PHP_DIR and PHP_VERSION parameters with the ones you need.
